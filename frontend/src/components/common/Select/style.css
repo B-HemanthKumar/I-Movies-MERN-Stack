@@ -16,11 +16,11 @@
   height: 50px;
   -webkit-appearance: none;
   background: #42474b;
-  border-bottom-color: rgb(240, 98, 73);
+  border-bottom-color: rgb(73, 229, 240);
   border-top: 0px;
   border-right: 0px;
   border-left: 0px;
-  place-content: rgb(240, 98, 73);
+  place-content: rgb(73, 220, 240);
   border-radius: 3px;
   color: white;
 }

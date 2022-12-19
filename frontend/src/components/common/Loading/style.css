@@ -12,7 +12,7 @@
 .loader .square {
   width: 25%;
   height: 25%;
-  background: #ff5252;
+  background: #39cadd;
   -webkit-animation: zoom 1.4s ease-in-out infinite;
           animation: zoom 1.4s ease-in-out infinite;
 }

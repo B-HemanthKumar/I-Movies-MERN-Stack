@@ -6,7 +6,7 @@
 }
 
 .list-item-active {
-  border-left-color: rgb(240, 98, 73);
+  border-left-color: rgb(68, 211, 230);
   border-left-width: 2px;
   transition: 0.3s ease-in;
 }
