@@ -68,37 +68,37 @@ class RegisterForm extends React.Component {
     return (
       <div className="background-container pt-5">
         <div className="container">
-          <h1 className="header">Register Form</h1>
+          <h1 className="header">SIGN UP</h1>
           <form onSubmit={this.handleSubmit}>
             <Input
               name="email"
-              label="Email"
+              label="Email :"
               type="email"
               error={errors["email"]}
               iconClass="fas fa-envelope"
               onChange={this.handleChange}
-              placeholder="Please enter your email..."
+              placeholder="Enter your email......"
               value={email}
               autoFocus
             />
             <Input
               name="password"
-              label="Password"
+              label="Password :"
               type="password"
               error={errors["password"]}
               iconClass="fas fa-key"
               onChange={this.handleChange}
-              placeholder="Please enter your password..."
+              placeholder="Enter your password......."
               value={password}
             />
             <Input
               name="passwordRepeat"
               type="password"
-              label="Repeat Password"
+              label="Re-Enter Password :"
               error={errors["passwordRepeat"]}
               iconClass="fas fa-key"
               onChange={this.handleChange}
-              placeholder="Repeat your password..."
+              placeholder="Re-Enter your password..."
               value={passwordRepeat}
             />
             {authMessage || passwordError ? (

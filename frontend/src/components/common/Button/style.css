@@ -11,7 +11,7 @@
 }
 
 .btn:disabled {
-  background: linear-gradient(to top, rgb(184, 65, 44), rgb(189, 59, 89));
+  background: linear-gradient(to top, rgb(29, 11, 8), rgb(28, 104, 117));
   color: lightgray;
 }
 

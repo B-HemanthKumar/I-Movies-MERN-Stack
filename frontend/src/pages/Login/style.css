@@ -1,6 +1,10 @@
 .header {
-  color: white;
+  color: rgb(34, 192, 219);
   text-align: center;
   font-size: 35px;
   margin: 0 0 20px 0;
+}
+
+#log-btn{
+  background-color: grey;
 }

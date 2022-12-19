@@ -66,31 +66,31 @@ class Login extends React.Component {
     return (
       <div className="background-container pt-5">
         <div className="container">
-          <h1 className="header">Login</h1>
+          <h1 className="header">LOGIN</h1>
           <form onSubmit={this.handleSubmit}>
             <Input
               name="email"
-              label="Email"
+              label="Email :"
               type="email"
               error={errors["email"]}
               iconClass="fas fa-envelope"
               onChange={this.handleChange}
-              placeholder="Please enter your email..."
+              placeholder="Enter your email.........."
               value={email}
               autoFocus
             />
             <Input
               name="password"
               type="password"
-              label="Password"
+              label="Password :"
               error={errors["password"]}
               iconClass="fas fa-key"
               onChange={this.handleChange}
-              placeholder="Please enter your password..."
+              placeholder="Enter your password........"
               value={password}
             />
             {authMessage && <p className="text-white">{authMessage}</p>}
-            <Button disabled={this.validate()} type="submit" label="Login" />
+            <Button id="log-btm" disabled={this.validate()} type="submit" label="Login" />
           </form>
         </div>
       </div>
